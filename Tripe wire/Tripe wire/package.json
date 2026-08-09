@@ -1,0 +1,37 @@
+{
+  "name": "tg-nft-mint-bot",
+  "version": "1.0.0",
+  "description": "Multi-chain fast NFT minting Telegram bot supporting EVM and Solana",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [
+    "nft",
+    "mint",
+    "telegram-bot",
+    "evm",
+    "viem",
+    "solana",
+    "robinhood-chain"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "@solana/web3.js": "^1.98.0",
+    "@types/node": "^22.13.4",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.7",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0",
+    "telegraf": "^4.16.3",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "viem": "^2.23.5",
+    "zod": "^3.24.2"
+  }
+}
